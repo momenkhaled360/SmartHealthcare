@@ -11,4 +11,9 @@
     <PackageReference Include="Microsoft.OpenApi" Version="2.7.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SmartHealthcare.Application\SmartHealthcare.Application.csproj" />
+    <ProjectReference Include="..\SmartHealthcare.Domain\SmartHealthcare.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
